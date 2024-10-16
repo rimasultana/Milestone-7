@@ -3,6 +3,9 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Counter from "./counter";
+import Team from "./Team";
+import Users from "./Users";
+import Friends from "./Friends";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -23,7 +26,11 @@ const Five = (num)=>{
   return (
     <>
       <h3> React core concepts part2</h3>
+      <Friends></Friends>
+      <Users></Users>
+      <Team></Team>
        <Counter></Counter>
+    
       <button onClick={handelarClick}>Click me</button>
       <button onClick={buttonClicked}>Clicked</button>
       <button onClick={() =>{alert('third clicked')}}>Third Clicked</button>
