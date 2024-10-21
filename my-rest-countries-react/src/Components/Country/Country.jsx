@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Country({ country, handleClickFlags }) {
+export default function Country({ country, handleClickFlags,handleClickVisited }) {
   const { name, area, flags, cca3,region } = country;
 
   return (
@@ -18,7 +18,7 @@ export default function Country({ country, handleClickFlags }) {
         <p className="font-semibold">{cca3}</p>
         <div className="card-actions justify-center">
           <button className="btn bg-lime-500">Added</button>
-          <button className="btn bg-lime-500">Visited</button>
+          <button onClick={()=>handleClickVisited(name.common)} className="btn bg-lime-500">Visited</button>
           <button onClick={()=>handleClickFlags(flags.png)} className="btn bg-lime-500">Add flag</button>
         </div>
       </div>
