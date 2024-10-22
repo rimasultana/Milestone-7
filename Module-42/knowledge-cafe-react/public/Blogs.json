@@ -2,7 +2,7 @@
   {
     "id": 1,
     "cover": "https://i.ibb.co.com/swQYHKC/top-view-ring-binder-1.jpg",
-    "title": "Exploring the Universe",
+    "title": "How to get your first job as a self-taught programmer",
     "author": "John Doe",
     "author_img": "https://i.ibb.co.com/56R8Ssh/front-view-serious-office-worker-sitting-table-1.jpg",
     "posted_date": "2024-10-20",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "cover": "https://i.ibb.co.com/bs6C58D/flat-lay-work-space-with-coffee-cup-keyboard.jpg",
-    "title": "The Art of Minimalism",
+    "title": "How to get your first job as a self-taught programmer",
     "author": "Jane Smith",
     "author_img": "https://i.ibb.co.com/ZKXp56D/woman-embracing-book.jpg",
     "posted_date": "2024-10-18",
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "cover": "https://i.ibb.co.com/MMCT8w6/flat-lay-desk-with-notebooks-glasses.jpg",
-    "title": "A Journey Through Time",
+    "title": "How to get your first job as a self-taught programmer",
     "author": "Albert Brown",
     "author_img": "https://i.ibb.co.com/Bq9CDjh/stylish-woman-reading-book.jpg",
     "posted_date": "2024-10-16",
@@ -38,15 +38,6 @@
     "posted_date": "2024-10-15",
     "reading_time": 10,
     "hashtags": ["#coding", "#programming", "#javascript"]
-  },
-  {
-    "id": 5,
-    "cover": "https://i.ibb.co.com/LQmVkrp/flat-lay-desk-with-notebooks-glasses.jpg",
-    "title": "The Future of AI",
-    "author": "Michael Green",
-    "author_img": "https://i.ibb.co.com/Bq9CDjh/stylish-woman-reading-book.jpg",
-    "posted_date": "2024-10-12",
-    "reading_time": 6,
-    "hashtags": ["#AI", "#technology", "#innovation"]
   }
+  
 ]
